@@ -1,0 +1,59 @@
+p{
+			color:bleu;
+			font-size: 20px;
+			width: 500px;
+		}
+		h1{
+			color:#E9967A;
+			
+		}
+		#top{
+			color:#2F4F4F;
+			text-align: center;
+		}
+		.ulClass{
+			list-style: none;
+		}
+		.ilClass {
+    		float: left;
+    		font-size: 20px;
+    		background-color: black;
+
+		}
+		.ulCalssSou{
+			padding: 0px 0px;
+			font-size: 15px;
+			list-style: none;
+
+		}
+		/*li a {
+    		text-align: center;
+    		padding: 10px 100px;
+
+    		text-decoration: none;
+    		color: #800080;
+    
+		}*/
+		li a:link, li a:visited{
+			text-align: center;
+    		padding: 0px 100px;
+    		font-style: oblique;
+    		text-decoration: none;
+    		color: #F5FFFA;
+    		border: 1px solid  	#FFFFFF;
+    		background-color: black;
+    		display: block;
+
+		}
+		li a:hover, li a:active{
+			background-color: #778899;
+			color: #FFE4B5;
+		}
+		section{
+			color: #A52A2A;
+			width: 100px;
+		}
+		aside{
+			color: #FF8C00;
+			width: 300px;
+		}
