@@ -9,7 +9,7 @@
 			color:bleu;
 			font-size: 20px;
 			width: 500px;
-			border: 5px solid black;
+			/*border: 5px solid black;*/
 		}
 		h1{
 			color:#E9967A;
@@ -18,10 +18,12 @@
 		#top{
 			color:#2F4F4F;
 			text-align: center;
+
 		}
 		.ulClass{
 			list-style: none;
 			margin: 50px;
+			padding-bottom: 35px;
 		}
 		.ilClass {
     		float: left;
@@ -61,21 +63,32 @@
 		
 		section{
 			color: #A52A2A;
-			width: 100px;
+			width: 500px;
+			background-color: #ff11ff;
 
 		}
 		aside{
 			color: #FF8C00;
 			width: 300px;
 		}
-		div{
-			padding: 90px 0px 10px 0px;
-			width: 1000px;
-			height: 400px;
-			background-color: red;
+		.classDiv{
+			
+			height: 300px;
+			background-color: #FF8C00;
+
 
 		}
 		.pClass{
+			width: 50%;
 			float: left;
-			padding: 0px 10px 0px 0px;
+			padding: 10px;
+
 		}
+		/********* Large devices only*****/
+		@media (min-width:1200px){
+			.pClass{width: 50%;
+			}
+		}
+
+
+		/********* Medium devices oly*****/
